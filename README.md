@@ -6,4 +6,3 @@
 ```bash
 apt install curl
 curl https://raw.githubusercontent.com/sbeteta42/netxcloud/main/install_netxcloud.sh | sh -
-

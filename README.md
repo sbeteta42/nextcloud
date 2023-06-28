@@ -1,6 +1,9 @@
 # nextcloud
 - Installation automatisée de nextcloud
+
+# Pre-requis
 - Os: Gnu/linux Debian10 core
+- apt install openssh-server git curl
 
 # installation
 ```bash

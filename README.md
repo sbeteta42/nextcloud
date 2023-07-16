@@ -8,6 +8,7 @@
 # installation
 ```bash
 apt install -y git
+git clone https://github.com/sbeteta42/nextcloud.git
 cd nextcloud
 chmod +x install_nextcloud.sh
 ./install-nextcloud.sh

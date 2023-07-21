@@ -3,12 +3,8 @@
 
 # Pre-requis
 - Os: Gnu/linux Debian10 core
-- apt install openssh-server git
+- apt install -y openssh-server git curl
 
-# installation
+# installation avec CURL
 ```bash
-apt install -y git
-git clone https://github.com/sbeteta42/nextcloud.git
-cd nextcloud
-chmod +x install_nextcloud.sh
-sh ./install_nextcloud.sh
+curl https://raw.githubusercontent.com/sbeteta42/nextcloud/main/install_nextcloud.sh | sudo sh

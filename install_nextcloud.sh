@@ -1,6 +1,6 @@
 #/sbin/bash
 #########################################################
-# script d'installation auomatisé par sbeteta@beteta.org#
+# script d'installation  par sbeteta@beteta.org         #
 #########################################################
 
 # installation des dependances fonctionnelles 
@@ -29,7 +29,6 @@ unzip nextcloud-22.2.3.zip
 clear
 
 # on déplace Nextcloud dans /var/www/html
-
 echo "on déplace Nextcloud dans /var/www/html"
 mv nextcloud /var/www/html
 clear

@@ -29,12 +29,12 @@ mysql -u root -e "flush privileges;"
 # téléchargement de NextCloud
 sleep 3
 echo "Téléchargement de NextCloud... please wait !"
-wget https://download.nextcloud.com/server/releases/nextcloud-22.2.3.zip
+curl -o nextcloud.zip https://download.nextcloud.com/server/releases/latest.zip
 
 # Dezippe de l'archive
 sleep 3
 echo "On dezippe l'archive..."
-unzip nextcloud-22.2.3.zip
+unzip nextcloud.zip
 clear
 
 # on déplace Nextcloud dans /var/www/html

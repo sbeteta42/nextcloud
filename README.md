@@ -1,4 +1,4 @@
-# nextcloud
+# NextCloud
 - Installation automatisée de nextcloud
 
 # Pre-requis
